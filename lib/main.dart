@@ -1,3 +1,4 @@
+import 'package:boxing_timer_app/screens/setup_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -23,7 +24,7 @@ class BoxingTimerApp extends StatelessWidget {
           bodyMedium: TextStyle(color: Colors.white),
         ),
       ),
-      home: const SizedBox(),
+      home: const SetupScreenState(),
     );
   }
 }
