@@ -26,36 +26,61 @@ class ProviderModel extends ChangeNotifier {
     }
   }
 
-  // void incrementRoundMinutes() 
-  // {
-  //   roundMinutes++;
-  //   notifyListeners();
+  void incrementRoundMinutes() 
+  {
+    roundMinutes++;
+    notifyListeners();
   
-  // }
+  }
 
-  // void decrementRoundMinutes() 
-  // {
-  //   if (roundMinutes > 0) 
-  //   {
-  //     roundMinutes--;
-  //     notifyListeners();
-  //   }
-  // }
+  void decrementRoundMinutes() 
+  {
+    if (roundMinutes > 0) 
+    {
+      roundMinutes--;
+      notifyListeners();
+    }
+  }
 
-  // void incrementRoundSeconds() 
-  // {
+  void incrementRoundSeconds() 
+  {
     
-  //   roundSeconds++;
-  //   notifyListeners();
+    roundSeconds++;
+    notifyListeners();
     
-  // }
+  }
 
-  // void decrementRoundSeconds() 
-  // {
-  //   if (roundSeconds > 0) 
-  //   {
-  //     roundSeconds--;
-  //     notifyListeners();
-  //   }
-  // }
+  void decrementRoundSeconds() 
+  {
+    if (roundSeconds > 0) 
+    {
+      roundSeconds--;
+      notifyListeners();
+    }
+  }
+  void incrementRestMinutes() 
+  {
+    restMinutes++;
+    notifyListeners();
+  }
+  void decrementRestMinutes() 
+  {
+    if (restMinutes > 0) 
+    {
+      restMinutes--;
+      notifyListeners();
+    }
+  }
+  void incrementRestSeconds() 
+  {
+    restSeconds++;
+    notifyListeners();
+  }
+  void decrementRestSeconds() 
+  {
+    if (restSeconds > 0)     {
+      restSeconds--;
+      notifyListeners();
+    }
+  }
 }

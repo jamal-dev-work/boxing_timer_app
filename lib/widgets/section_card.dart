@@ -37,7 +37,7 @@ class SectionCard extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             children: 
             [
-              Icon(icon!, color: Colors.white.withValues(alpha: 0.8)),
+              Icon(icon!, color: color!),
               const SizedBox(width: 8),
               Text
               (title!, style: TextStyle
